@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.team-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
