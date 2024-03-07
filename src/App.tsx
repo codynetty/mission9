@@ -48,8 +48,8 @@ class Team extends React.Component<TeamInfo> {
 function TeamList() {
   return (
     <div>
-      {data.teams.map((user) => (
-        <Team {...user} />
+      {data.teams.map((team) => (
+        <Team {...team} />
       ))}
     </div>
   );
